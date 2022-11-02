@@ -1,0 +1,67 @@
+/** ========== Hero Styles ========== */
+
+/* Hero container (Background) */
+.hero-container {
+    height: 840px;
+    background: url("../../img/hero.png");
+}
+.hero-main {
+    height: 800px;
+}
+
+/* hero title */
+
+.hero-title h1 {
+    font-size: 90px;
+    /* margin-left: 80px; */
+    color: var(--color-theme-6);
+}
+
+.hero-title p {
+    font-size: 30px;
+    font-weight: italic;
+    color: var(--color-theme-2);
+    /* margin-left: 80px; */
+}
+
+.hero-title span {
+    color: var(--color-theme-2);
+}
+
+/* divisor  */
+
+.divisor-title {
+    width: 90%;
+    height: 5px;
+    border-radius: 60px;
+    background: var(--color-theme-1);
+}
+
+/* btn-hero */
+.btn-hero {
+    width: 200px;
+    background: var(--color-theme-1);
+    border-radius: 20px;
+    margin-top: 10px;
+    border-color: var(--color-theme-2);
+    border: none;
+    color: var(--color-theme-6);
+    font-size: larger;
+}
+/* btn- hover */
+.btn-hero:hover {
+    background: var(--color-theme-6);
+    border-radius: 20px;
+    color: var(--color-theme-1);
+    font-size: larger;
+}
+
+.hero-img {
+    width: 700px;
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-title {
+        margin-top: 200px;
+    }
+}

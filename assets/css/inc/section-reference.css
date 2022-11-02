@@ -1,0 +1,43 @@
+/** ========== References Section ========== */
+
+.ref-style h2 {
+    color: var(--color-theme-1);
+}
+
+.ref-style h1 {
+    color: var(--color-theme-2);
+}
+
+.ref-style p {
+    color: var(--color-theme-3);
+}
+
+.ref-style h4 {
+    color: var(--color-theme-2);
+}
+
+.ref-box-size {
+    width: 90px;
+    height: 90px;
+}
+.ref-box-shadow {
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+}
+.facts,
+.quote {
+    background: rgba(15, 66, 41, 0.6);
+}
+
+.ref-icon-1 {
+    color: var(--color-theme-9);
+    font-size: 60px;
+}
+
+.ref-icon-2 {
+    color: var(--color-theme-10);
+    font-size: 60px;
+}
+.ref-icon-3 {
+    color: var(--color-theme-8);
+    font-size: 60px;
+}

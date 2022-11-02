@@ -1,0 +1,30 @@
+/** ========== About Seccion Start ====== */
+
+.divisor-about {
+    width: 300px;
+    height: 5px;
+    border-radius: 60px;
+    background: var(--color-theme-1);
+}
+
+.main-text-about {
+    width: 500px;
+    height: 300px;
+}
+.main-img-about {
+    width: 500px;
+    height: 300px;
+}
+
+.text-about-style h1 {
+    color: var(--color-theme-2);
+    font-size: 50px;
+}
+.text-about-style h3 {
+    color: var(--color-theme-2);
+}
+.text-about-style span {
+    color: var(--color-theme-1);
+}
+
+/** ========== About Seccion End ====== */

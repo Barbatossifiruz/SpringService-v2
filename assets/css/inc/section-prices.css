@@ -1,0 +1,76 @@
+/** ========== Prices Seccion ========== */
+
+.bg-price {
+    height: 900px;
+    background-color: var(--color-theme-6);
+    background: url("../../img/spring-service-bottom.png");
+    background-size: cover;
+}
+
+.box-style {
+    background-color: var(--color-theme-6);
+}
+.main-text-price {
+    width: 500px;
+    height: 300px;
+}
+/* Price box Style */
+.dollar-style {
+    font-size: 60px;
+    color: var(--color-theme-9);
+}
+.number-style {
+    font-size: 90px;
+    color: var(--color-theme-2);
+}
+.date-style {
+    font-size: 30px;
+    color: var(--color-theme-2);
+}
+.price-box-cont {
+    height: 500px;
+    max-width: 400px;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid var(--color-theme-3);
+    box-shadow: 5px 10px var(--color-theme-1);
+}
+/* list style */
+.list-style i {
+    color: var(--color-theme-9);
+    font-size: 25px;
+}
+.list-style li {
+    color: var(--color-theme-3);
+}
+
+.btn-price {
+    background: var(--color-theme-1);
+    border-radius: 10px;
+    border-color: var(--color-theme-2);
+    border: none;
+    color: var(--color-theme-6);
+    font-size: larger;
+}
+/* btn- hover */
+.btn-price:hover {
+    background: var(--color-theme-3);
+    border-radius: 10px;
+    color: var(--color-theme-6);
+    font-size: larger;
+}
+
+/* price-title */
+
+.price-title {
+    color: var(--color-theme-1);
+}
+.price-title span {
+    color: var(--color-theme-3);
+}
+
+/* Divisor price */
+.divisor-style-price {
+    width: 20%;
+    color: var(--color-theme-2);
+}

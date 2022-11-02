@@ -1,0 +1,20 @@
+/** ========== Navbar Styles ========== */
+/* Nav-links */
+a {
+    color: inherit;
+}
+/* logo */
+.navbar-brand > img {
+    width: 100px;
+}
+/* Decoration nav-links */
+.navbar-main .active {
+    text-decoration: underline var(--color-theme-1);
+    text-underline-offset: 9px;
+}
+
+/* Decoracion texto */
+.main-ul {
+    font-size: bold;
+    color: var(--color-theme-title);
+}

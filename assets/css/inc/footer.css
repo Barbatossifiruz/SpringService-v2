@@ -1,0 +1,80 @@
+/** ========== Section Footer  ========== */
+.main-footer {
+    width: 100%;
+    height: auto;
+}
+.footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.footer p {
+    color: var(--color-theme-3);
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.footer a {
+    color: var(--color-theme-3);
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.footer div {
+    color: var(--color-theme-2);
+}
+
+.footer-bg {
+    width: 400px;
+    height: 200px;
+}
+.footer-bg h5 {
+    color: var(--color-theme-3);
+    font-size: large;
+}
+.footer-bg p {
+    color: var(--color-theme-text);
+}
+
+.footer-bg li {
+    color: var(--color-theme-text);
+}
+
+.footer-img {
+    width: 350px;
+}
+.footer-icon i {
+    color: var(--color-theme-3);
+}
+.footer-icon i:hover {
+    color: var(--color-theme-1);
+}
+
+.footer-list li a {
+    text-decoration: none;
+}
+
+/* Contact */
+.footer-contact i {
+    color: var(--color-theme-3);
+}
+
+/* Btn footer */
+.btn-footer {
+    width: 200px;
+    background: var(--color-theme-1);
+    border-radius: 20px;
+    margin-top: 10px;
+    border-color: var(--color-theme-2);
+    border: none;
+    color: var(--color-theme-6);
+    font-size: larger;
+}
+/* btn- hover */
+.btn-footer:hover {
+    background: var(--color-theme-3);
+    border-radius: 20px;
+    color: var(--color-theme-6);
+    font-size: larger;
+}

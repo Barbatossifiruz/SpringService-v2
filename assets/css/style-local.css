@@ -1,0 +1,26 @@
+/* Css estilos */
+
+/** 001 Generales */
+@import url(inc/general.css);
+
+/** 002 Header  */
+@import url(inc/section-navbar.css);
+@import url(inc/section-hero.css);
+
+/** 003 About */
+@import url(inc/seccion-about.css);
+
+/** 004 Services */
+@import url(inc/section-services.css);
+
+/** 005 Reference */
+@import url(inc/section-reference.css);
+
+/** 006 Prices */
+@import url(inc/section-prices.css);
+
+/** 007 Divisor Sections */
+@import url(inc/section-divisor.css);
+
+/** 008 Footer */
+@import url(inc/footer.css);

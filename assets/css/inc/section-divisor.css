@@ -1,0 +1,16 @@
+/** ========== Divisor Seccion ========== */
+
+.seccion-divisor-1 {
+    background: url("../../img/img-divisor.jpg") center no-repeat fixed;
+    height: 300px;
+    opacity: 70%;
+    background-size: cover;
+    padding: 60px 0 40px 0;
+    position: relative;
+}
+
+/* DIVISOR STYLE */
+.divisor-style {
+    width: 80%;
+    color: var(--color-theme-2);
+}

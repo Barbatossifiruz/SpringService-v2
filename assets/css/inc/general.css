@@ -1,0 +1,23 @@
+/** ========== General style Start ========== */
+
+/* Body */
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+:root {
+    /* SpringService Colors*/
+    --color-theme-1: #38c9f5;
+    --color-theme-2: #446572;
+    --color-theme-3: #1982c4;
+    --color-theme-4: #ff595e;
+    --color-theme-6: #ffffff;
+    --color-theme-7: #ff924c;
+    --color-theme-8: #ffca3a;
+    --color-theme-9: #8ac926;
+    --color-theme-10: #6a4c93;
+    --color-theme-11: #993994;
+    --color-theme-title: #222222;
+    --color-theme-text: #797979;
+}
