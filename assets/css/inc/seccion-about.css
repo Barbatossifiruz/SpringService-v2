@@ -1,5 +1,8 @@
 /** ========== About Seccion Start ====== */
 
+.about-style {
+    margin-top: 250px;
+}
 .divisor-about {
     width: 300px;
     height: 5px;
