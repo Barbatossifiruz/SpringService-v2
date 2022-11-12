@@ -30,4 +30,11 @@
     color: var(--color-theme-1);
 }
 
+@media only screen and (max-width: 991px) {
+    .main-text-about {
+        width: 500px;
+        height: auto;
+    }
+}
+
 /** ========== About Seccion End ====== */

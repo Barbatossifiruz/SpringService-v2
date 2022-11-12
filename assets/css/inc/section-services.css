@@ -15,7 +15,11 @@
     background-color: #f5f5f5;
 }
 
-.list-box {
+.list-text-service {
+    margin: 20px;
+}
+
+.main-list .list-box {
     overflow: hidden;
     letter-spacing: 0.5px;
 }
