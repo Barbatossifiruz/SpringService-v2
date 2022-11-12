@@ -51,22 +51,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto fw-semibold">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="#Hero-section">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#Dedicate-section">Dedicated to</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">References</a>
+                        <a class="nav-link" href="#Services-section">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our clients</a>
+                        <a class="nav-link" href="#Reference-section">References</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#Contact-section">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -76,7 +76,7 @@
     <!--* Nav-bar end -->
 
     <!--* Hero-Section Start -->
-    <section class="container-fluid p-0 position-relative main-hero">
+    <section class="container-fluid p-0 position-relative main-hero" id="Hero-section">
         <div id="fondo" class="container-fluid">
             <div class="row">
                 <div class="col-xxl-6 col-xs-12" id="hero-container">
@@ -105,7 +105,7 @@
     <!--* Hero section End -->
 
     <!--* About Section start -->
-    <section class="container-fluid border-b py-8 about-style">
+    <section class="container-fluid border-b py-8 about-style" id="Dedicate-section">
         <div class="container-fluid mx-auto m-8 text-about-style ">
             <!-- Title -->
             <h1 class="w-full my-2 text-5x1 font-bold leading-tight text-center wow animate fadeInDown "
@@ -169,7 +169,7 @@
     <!--! Middle-divisor  End  -->
 
     <!--* Section Services Start  -->
-    <section class="service-main" id="clases-servicios">
+    <section class="service-main" id="Services-section">
         <div class="feature-bg wow animate bounceInRight" data-wow-delay="0.1s">
             <div class="container">
                 <div class="row">
@@ -225,7 +225,7 @@
     <!--! Divisor img End -->
 
     <!--* Reference Section Start-->
-    <section class="container-xxl py-5">
+    <section class="container-xxl py-5" id="Reference-section">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <!-- title -->
@@ -286,8 +286,8 @@
     </div>
     <!--! Middle-divisor  End  -->
 
-    <!--* Prices Section Start -->
-    <section class="container-fluid border-b py-8 bg-price">
+    <!--* Contact Section Start -->
+    <section class="container-fluid border-b py-8 bg-price" id="Contact-section">
         <div class="container-fluid mx-auto m-8 wow fadeInUp" data-wow-delay="0.5s">
             <!-- title -->
             <h1 class="text-start fw-bold price-title">Contact<span class="fw-light"> Us</span></h1>
@@ -341,7 +341,7 @@
         </div>
         </div>
     </section>
-    <!--* Prices Section End -->
+    <!--* Contact Section End -->
 
     <!--! Middle-divisor  start-->
     <div class="container-fluid d-flex justify-content-center">
@@ -371,9 +371,9 @@
                     <div class="col-4 m-2 footer-bg">
                         <h5 class="text-uppercase font-weight-bold mb-4">Services</h5>
                         <ul class="list-unstyled footer-list ">
-                            <li class="mb-1"><a href="#">About us</a></li>
-                            <li class="mb-1"><a href="#">Services</a></li>
-                            <li class="mb-1"><a href="#">Prices</a></li>
+                            <li class="mb-1"><a href="#Hero-section">About us</a></li>
+                            <li class="mb-1"><a href="#Services-section">Services</a></li>
+                            <li class="mb-1"><a href="#Reference-section">Reference</a></li>
                         </ul>
                     </div>
                     <!-- Contact -->
@@ -384,9 +384,11 @@
                                 <li class="mb-1"><i class="bi bi-envelope-fill"> </i><a
                                         href="#">SpringService@gmail.com</a>
                                 </li>
-                                <li class="mb-1"><i class="bi bi-telephone-fill"> </i><a href="#">+51-7488573</a></li>
+                                <li class="mb-1"><i class="bi bi-telephone-fill"> </i><a
+                                        href="https://wa.me/56977559650?text=Prueba de whatsapp">+51-7488573</a>
+                                </li>
                             </ul>
-                            <button class="btn btn-primary btn-footer">Contact</button>
+                            <button class="btn btn-primary btn-footer" href="#">Contact</button>
                         </ul>
                     </div>
                     <!-- Img logo -->
@@ -401,16 +403,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Spring Services</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="#Hero-section">Spring Services</a>, All Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
-                        Designed By <a class="" href="#">Elio Soto</a>
+                        Designed By <a href="https://www.linkedin.com/in/elio-soto-lopez-38b2a4248">Elio Soto</a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
     <!--* Footer Section end -->
+
+    <!--* Back to top button start-->
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+    <!--* Back to top button End -->
 
 
     <!-- * Librerias Js -->

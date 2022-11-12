@@ -105,6 +105,24 @@
         margin: none;
     }
 }
+@media only screen and (max-width: 630px) {
+    #hero-container {
+        margin: none;
+    }
+    .hero-title h1 {
+        font-size: 60px;
+        /* margin-left: 80px; */
+        color: var(--color-theme-6);
+    }
+
+    /* hero paragrph */
+    .hero-title p {
+        font-size: 25px;
+        font-weight: italic;
+        color: var(--color-theme-6);
+        /* margin-left: 80px; */
+    }
+}
 
 @media only screen and (max-width: 400px) {
     #hero-container {

@@ -1,11 +1,11 @@
 /** ========== Services Section  ====== */
 
-#clases-servicios .feature-bg .container .row .col-lg-7 .featured-text h2 {
+#Services-section .feature-bg .container .row .col-lg-7 .featured-text h2 {
     color: var(--color-theme-1);
     margin-bottom: 80px;
 }
 
-#clases-servicios .feature-bg .container .row .col-lg-7 .featured-text h2 .text-servicios {
+#Services-section .feature-bg .container .row .col-lg-7 .featured-text h2 .text-servicios {
     color: var(--color-theme-2);
 }
 
