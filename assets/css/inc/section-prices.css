@@ -28,8 +28,9 @@
     color: var(--color-theme-2);
 }
 .price-box-cont {
-    height: 500px;
-    max-width: 400px;
+    margin-top: 250px;
+    height: 100px;
+    max-width: 480px;
     width: auto;
     border-radius: 10px;
     border: 2px solid var(--color-theme-3);
