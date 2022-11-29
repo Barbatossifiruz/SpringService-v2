@@ -50,12 +50,26 @@
 /* Hero Logo  */
 .hero-img-sombra {
     width: 1300px;
+    margin-left: 10px;
 }
 
 /* Hero logo responsive */
+
+@media only screen and (max-width: 1801px) {
+    .hero-img-sombra {
+        width: 1220px;
+    }
+}
+
+@media only screen and (max-width: 1716px) {
+    .hero-img-sombra {
+        width: 700px;
+    }
+}
+
 @media only screen and (max-width: 1485px) {
     .hero-img-sombra {
-        width: 600px;
+        width: 200px;
     }
 }
 @media only screen and (max-width: 766px) {
